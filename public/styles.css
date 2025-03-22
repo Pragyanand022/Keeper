@@ -69,6 +69,18 @@ footer p {
   outline: none;
 }
 
+#timestamp{
+  color: #888888;
+  font-size: small;
+}
+
+.noteTime{
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;         
+  width: 100%; 
+  flex-direction: row;
+}
 form.create-note {
   position: relative;
   width: 480px;
